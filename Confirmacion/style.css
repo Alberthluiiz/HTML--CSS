@@ -76,7 +76,7 @@ body{
 }
 
 @media (max-width:600px) {
-    .contenedor. .sub-contenedor{
+    .contenedor .sub-contenedor {
         width: 80%;
     }
 
