@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Rubik+Dirt&family=Teko:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    //background: #ccc;
+    font-family: 'Popins', sans-serif;
+}
+
+.main {
+    position: relative;
+    min-height: 1000vh;
+    background: radial-gradient(#f0483a,#ff001e);
+    display: flex;
+    // justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 100px;
+    header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;       
+        align-items: center;
+        z-index: 1000;
+        .logo {
+            max-width: 90px;
+        }
+    }
+}
