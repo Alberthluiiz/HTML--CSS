@@ -1,0 +1,33 @@
+/* IMPORTA UNA FUENTE DESCARGADA */
+@font-face {
+    font-family: MonserratFuenteCusrom;
+    src: url(fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* text-transform: uppercase ; */
+
+    /* COLORES */
+    /* COLORES DEL SISTEMA */
+    color: purple;
+    /* COLORES HEXADECIMALES */
+    color: brown;
+    /* COLORES RGB */
+    color: rgb(31, 194, 161);
+    /* COLORES RGBA */
+    color: rgba(187, 61, 126, 0.8);
+}
+
+h3 {
+    font-family: MonserratFuenteCusrom, "Comic Sans MS";
+    font-size: 45px;
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
