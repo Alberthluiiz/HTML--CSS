@@ -83,8 +83,10 @@ Ejercicio completo con HTML y CSS
     width: 30%;
     border: 1px solid black;
     min-height: 500px;
+    max-height: 650px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-y: scroll;
 }
 
 #contenido > h1 {
@@ -93,18 +95,33 @@ Ejercicio completo con HTML y CSS
     padding: 15px;
     color: #444;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 5px gray;
 }
 
 #contenido .caja {
+    /* position: absolute; */
     width: 40%;
     height: 250px;
-    background-color: palevioletred;
-    border: 5px solid black;
+    /* background-color: palevioletred; */
+    background-color: #ccc;
+    border: 1px solid gray;
     color: white;
     /* Flotamos elememtos */
     float: left;
     margin: 20px;
     margin-left: 40px;
+    text-align: center;
+    line-height: 225px;
+    color: black;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0px 0px 15px black;
+}
+
+/* Sombrea Interior */
+.sombraInterior {
+    box-shadow: 5px 5px 10px gold inset !important;
+    border-radius: 15px;
 }
 
 /* Footer */
@@ -119,4 +136,30 @@ footer {
 }
 
 
+.libre {
+    position: absolute;
+    top: 790px;
+    left: 50%;
 
+    border: 1px solid black;
+    background-color: red;
+    color: white;    
+    width: 50px;
+    height: 50px;
+    font-size: 13px;
+}
+
+.libre1 {
+z-index: 1;
+}
+
+.libre2{
+    position: absolute;
+    top: 760px;
+    left: 52%;
+    background: green;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
