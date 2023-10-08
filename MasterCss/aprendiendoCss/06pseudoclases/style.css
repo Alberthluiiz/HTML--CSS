@@ -1,0 +1,56 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li {
+    font-size: 40px;
+}
+
+ul li:first-child{
+    color: purple;
+    font-weight: bold;
+}
+
+ul li:nth-child(2) {
+    color: orange;
+    font-weight: bold;
+}
+
+ul li:last-child {
+    color: blue;
+    font-weight: bold;
+}
+
+
+#miEnlace {
+    font-size: 30px;
+    color: lightcoral;
+}
+
+#miEnlace:link {
+    color: rebeccapurple;
+}
+
+#miEnlace:visited{
+    color: rebeccapurple;
+}
+
+#miEnlace:hover {
+    color: aqua;
+}
+
+#miEnlace:active {
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Selector de atributo */
+input[typE="text"]{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+input[typE="text"]:focus{
+    border: 4px dashed blue;
+}

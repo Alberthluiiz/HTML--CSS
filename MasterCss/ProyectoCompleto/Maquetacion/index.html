@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proyecto</title>
-    <link rel="stylesheet" href="/assets/style.css" />
+    <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
     <!--Start Header -->
     <header class="header">
       <div class="logotipo">
-        <img src="/assets/img/logo.png" alt="logotipo luis guillén" />
+        <img src="assets/img/logo.png" alt="logotipo luis guillén" />
       </div>
       <h1>
         <a href="index.html">Master en Css</a>
@@ -24,8 +24,22 @@
         <li><a href="#">Inicio</a></li>
         <li><a href="#">Contenido</a></li>
         <li><a href="#">Requerimientos</a></li>
-        <li><a href="#">Lenguajes</a></li>
-        <li><a href="#">Framework</a></li>
+        <li>
+          <a href="#">Lenguajes</a>
+          <ul>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Framework</a>
+          <ul>
+            <li><a href="#">Angular</a></li>
+            <li><a href="#">Laravel</a></li>
+            <li><a href="#">Symfony</a></li>
+          </ul>
+        </li>
         <li><a href="#">Proyectos</a></li>
         <li><a href="#">Instructor</a></li>
         <li><a href="#">Reseñas</a></li>
@@ -34,5 +48,130 @@
       </ul>
     </nav>
     <!-- End Menu de Navegación -->
+
+    <!-- Start Inicio del contenido central -->
+    <div class="content">
+      <!-- Start de la barra lateral -->
+      <aside id="aside">
+        <!-- Primer Widget -->
+        <div class="widget" id="login">
+          <h3>Entrar a la web</h3>
+          <form action="">
+            <label for="">Usuario</label>
+            <input type="text" name="" id="" />
+
+            <label for="">Contraseña</label>
+            <input type="password" />
+
+            <input type="submit" value="Entrar" />
+          </form>
+          <a href="#">Zona de alumnos</a>
+          <a href="#">Zona profesor</a>
+          <a href="#">Acceso a calificaciones</a>
+        </div>
+        <!-- Segundo Widget -->
+        <div class="widget" id="login">
+          <h3 class="blue">Aula Virtual 1</h3>
+          <form action="">
+            <label for="">Nombre de Usuario</label>
+            <input type="text" name="" id="" />
+
+            <label for="">Contraseña</label>
+            <input type="password" />
+
+            <input type="submit" value="Entrar" />
+          </form>
+        </div>
+        <!-- Tercer Widget -->
+        <div class="widget" id="login">
+          <h3 class="red">Aula Virtual 2</h3>
+          <form action="">
+            <label for="">Nombre de Usuario</label>
+            <input type="text" name="" id="" />
+
+            <label for="">Contraseña</label>
+            <input type="password" />
+
+            <input type="submit" value="Entrar" />
+          </form>
+        </div>
+        <!-- Cuarto Widget -->
+        <div class="widget" id="login">
+          <h3>Enlaces de interes</h3>
+          <ul>
+            <li><a href="#">Master en JavaScript</a></li>
+            <li><a href="#">Master en Php</a></li>
+            <li><a href="#">Master en Web FullStack</a></li>
+            <li><a href="#">Master en Framework JS</a></li>
+            <li><a href="#">Master en Git y Linnux</a></li>
+          </ul>
+        </div>
+      </aside>
+
+      <aside id="frase">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        <a href="#">Leer más frases</a>
+      </aside>
+      <!-- End de la barra lateral -->
+
+      <!-- Start de las Secciones -->
+      <div id="sections">
+        <section id="fronted">
+          <span class="stickers">
+            <img
+              class="stickerOne"
+              src="/ProyectoCompleto/Maquetacion/assets/img/scotch.png"
+              alt="scotch" />
+            <img
+              class="stockerTwo"
+              src="/ProyectoCompleto/Maquetacion/assets/img/scotch.png"
+              alt="scotch" />
+          </span>
+          <h2 class="titulo">Noticias de front-end</h2>
+          <article class="article">
+            <p>
+              <a href="#">Titulo de la Entrada</a>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quasi
+              architecto fugit ducimus pariatur, minus molestiae unde ab porro
+              laudantium, facilis numquam ex id sapiente laborum nulla odit
+              saepe quia!
+            </p>
+            <span class="date">[07-10-2023. Luis Guillén Web]</span>
+          </article>
+          <article class="article">
+            <p>
+              <a href="#">Titulo de la Entrada</a>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quasi
+              architecto fugit ducimus pariatur, minus molestiae unde ab porro
+              laudantium, facilis numquam ex id sapiente laborum nulla odit
+              saepe quia!
+            </p>
+            <span class="date">[07-10-2023. Luis Guillén Web]</span>
+          </article>
+          <article class="article">
+            <p>
+              <a href="#">Titulo de la Entrada</a>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quasi
+              architecto fugit ducimus pariatur, minus molestiae unde ab porro
+              laudantium, facilis numquam ex id sapiente laborum nulla odit
+              saepe quia!
+            </p>
+            <span class="date">[07-10-2023. Luis Guillén Web]</span>
+          </article>
+          <article class="article">
+            <p>
+              <a href="#">Titulo de la Entrada</a>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quasi
+              architecto fugit ducimus pariatur, minus molestiae unde ab porro
+              laudantium, facilis numquam ex id sapiente laborum nulla odit
+              saepe quia!
+            </p>
+            <span class="date">[07-10-2023. Luis Guillén Web]</span>
+          </article>
+        </section>
+      </div>
+      <!-- End de las Secciones -->
+    </div>
+    <!-- End Inicio del contenido central -->
   </body>
 </html>
