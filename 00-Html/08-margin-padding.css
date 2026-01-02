@@ -1,0 +1,28 @@
+.padre {
+    background: #f23b00;
+    height: 300px;
+    width: 300px;
+    margin: 50px 50px 100px 100px;
+}
+
+.hijo {
+    height: 100px;
+    width: 100px;
+    background: black;
+    margin: 20px;
+}
+
+
+.padre-padding {
+    background: #f23b00;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+}
+
+
+.hijo-padding {
+    height: 100px;
+    width: 100px;
+    background: black;
+}

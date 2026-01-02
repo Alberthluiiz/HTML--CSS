@@ -1,0 +1,21 @@
+/*formateo de pagina.css*/ 
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.padre-padding {
+    background: #f23b00;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+}
+
+
+.hijo-padding {
+    height: 100px;
+    width: 100px;
+    background: black;
+}

@@ -1,0 +1,29 @@
+h1 {
+    color: blue;
+}
+h2 {
+    color: green;
+}
+
+h3 {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+p {
+    color: #8772e4;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.primerDiv {
+    background-color: #d1e7dd;
+    padding: 15px;
+    border: 2px solid #0f5132;
+}
+
+.segundoDiv {
+    background-color: #f8d7da;
+    padding: 15px;
+    border: 2px solid #842029;
+}
